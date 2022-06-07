@@ -1,0 +1,19 @@
+Third commit
+Написание первого отображения
+1.polls/view.py
+2.polls/urls.py
+3.mysite/urls.py
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   Second commit.txt
+#	modified:   mysite/mysite/__pycache__/urls.cpython-310.pyc
+#	modified:   mysite/mysite/urls.py
+#	new file:   mysite/polls/__pycache__/__init__.cpython-310.pyc
+#	new file:   mysite/polls/__pycache__/urls.cpython-310.pyc
+#	new file:   mysite/polls/__pycache__/views.cpython-310.pyc
+#	new file:   mysite/polls/urls.py
+#	modified:   mysite/polls/views.py
+#
