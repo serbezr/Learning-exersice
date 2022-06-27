@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 def index(request):
     return HttpResponse("Страница приложения women")
-def categories(reguest):
-    return HttpResponse("<h1>Статьи по категориям</h1>")
+def categories(reguest,catid):
+    return HttpResponse(f"<h1>Статьи по категориям</h1><p>{catid}</p>")
