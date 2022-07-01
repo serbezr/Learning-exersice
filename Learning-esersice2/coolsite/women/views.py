@@ -12,7 +12,7 @@ def categories(request,catid):
 
 def archive(request, year):
     if int(year) > 2020:
-        return redirect('/',permanent=True)
+        return redirect('home',permanent=True)
     return HttpResponse(f"<h1>Архив по годам</h1><p>{year}</p>")
 
 def pageNotFound(request,exeption):
